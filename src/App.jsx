@@ -7,16 +7,16 @@ function App() {
       justifyContent: 'center',
       alignItems: 'center',
       minHeight: '100vh',
-      backgroundColor: '#242424'  // Dark background
+      backgroundColor: '#242424'  
     },
     formContainer: {
-      background: '#1a1a1a',     // Dark form background
+      background: '#1a1a1a',    
       padding: '2rem',
       borderRadius: '10px',
       boxShadow: '0 0 10px rgba(0,0,0,0.3)',
       width: '100%',
       maxWidth: '400px',
-      color: '#ffffff'           // White text
+      color: '#ffffff'          
     },
     input: {
       width: '100%',
@@ -25,9 +25,9 @@ function App() {
       border: '1px solid #444',
       borderRadius: '4px',
       boxSizing: 'border-box',
-      backgroundColor: '#333',   // Dark input background
-      color: '#ffffff',          // White text for input
-      outline: 'none'            // Remove default outline
+      backgroundColor: '#333',   
+      color: '#ffffff',          
+      outline: 'none'            
     },
     button: {
       width: '100%',
@@ -43,10 +43,10 @@ function App() {
       textAlign: 'left',
       display: 'block',
       marginBottom: '5px',
-      color: '#ffffff'           // White text for labels
+      color: '#ffffff'           
     },
     heading: {
-      color: '#ffffff',          // White text for heading
+      color: '#ffffff',          
       marginBottom: '1.5rem'
     }
   };
