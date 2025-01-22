@@ -1,7 +1,7 @@
 # Basic Form 
 
 ## Screenshot
-![Basic Form Screenshot](./src/assets/ScreenShots.png)
+![Basic Form Screenshot](./src/assets/Screenshots.png)
 
 ## Student Information
 - **Name:** Neepurna Baral
