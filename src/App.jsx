@@ -72,10 +72,10 @@ function App() {
   return (
     <div style={styles.container}>
       <div style={styles.formContainer}>
-        <h1 style={styles.heading}>React Form Example</h1>
+        <h1 style={{...styles.heading, textAlign: 'center'}}>React Form Example</h1>
         <form onSubmit={handleSubmit}>
           <div>
-            <label style={styles.label}>Name:</label>
+            <label style={{...styles.label, textAlign: 'center'}}>Name:</label>
             <input
               style={styles.input}
               type="text"
@@ -85,7 +85,7 @@ function App() {
             />
           </div>
           <div>
-            <label style={styles.label}>Email:</label>
+            <label style={{...styles.label, textAlign: 'center'}}>Email:</label>
             <input
               style={styles.input}
               type="email"
